@@ -18,7 +18,7 @@
     git remote remove origin
     git remote add origin https://github.com/YOUR_USERNAME/your-new-repo.git
     git push -u origin main
-
+---
 <img width="4707" height="1129" alt="Logo_Voltalia-White" src="https://github.com/user-attachments/assets/c4812952-af71-4ebe-af2b-97303db80ed0" />
 
 # Teste: Frontend Developer (React/TS + Dashboard CRUD)
