@@ -25,17 +25,17 @@ Todos os requisitos foram implementados, com foco em uma experiência de usuári
 
 | Operação | Detalhes da Implementação |
 | :--- | :--- |
-| **READ (Leitura)** | Busca de produtos ao carregar, cálculo e exibição de 3 KPIs (`Valor Total do Estoque`, `Preço Médio`, `Total de Categorias`), e Tabela responsiva. |
-| **CREATE (Criação)** | Modal centralizado e estilizado que submete um `POST` e adiciona o novo produto à lista localmente. |
-| **UPDATE (Atualização)** | Botão "Editar" abre o Modal **pré-preenchido**. A submissão faz `PUT` e atualiza a linha localmente. |
-| **DELETE (Exclusão)** | Botão "Excluir" com confirmação. Faz a requisição `DELETE` e remove o item da lista local. |
+| **READ** | Busca de produtos ao carregar, cálculo e exibição de 3 KPIs (`Valor Total do Estoque`, `Preço Médio`, `Total de Categorias`), e Tabela responsiva. |
+| **CREATE** | Modal centralizado e estilizado que submete um `POST` e adiciona o novo produto à lista localmente. |
+| **UPDATE** | Botão "Editar" abre o Modal **pré-preenchido**. A submissão faz `PUT` e atualiza a linha localmente. |
+| **DELETE** | Botão "Excluir" com confirmação. Faz a requisição `DELETE` e remove o item da lista local. |
 
 ### 2. Design e Boas Práticas (Bônus)
 
 | Bônus | Status | Implementação |
 | :--- | :--- | :--- |
 | **Estilização Completa** | ✅ Completo | Design moderno com tema **Amarelo/Branco** aplicado consistentemente em Cards, Modal e Tabela. |
-| **Formatação de Valores** | ✅ Completo | Valores monetários formatados no padrão **R$ 999.999,99** (`toLocaleString`) nos Cards e Tabela. |
+| **Formatação de Valores** | ✅ Completo | Valores monetários formatados no padrão **R$ 999.999,99** nos Cards e Tabela. |
 | **Tipagem Estrita** | ✅ Completo | Uso de `import type` e tipos utilitários (`Omit`) em todas as funções de `Create` e `Update`. |
 | **Layout Profissional** | ✅ Completo | Layout principal em um box arredondado centralizado, com alinhamento preciso de elementos e responsividade. |
 
