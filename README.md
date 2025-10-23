@@ -9,7 +9,7 @@ O objetivo principal foi demonstrar proficiência em React com TypeScript, geren
 | Categoria | Tecnologia |
 | :--- | :--- |
 | **Framework** | React |
-| **Linguagem** | TypeScript (Com tipagem estrita e `Omit<>`) |
+| **Linguagem** | TypeScript |
 | **Estilização** | Tailwind CSS |
 | **Build Tool** | ViteJS |
 | **Deploy** | Vercel (Super Bônus) |
@@ -45,8 +45,7 @@ Todos os requisitos foram implementados, com foco em uma experiência de usuári
 
 O projeto está configurado para ser facilmente implantado e acessado publicamente através da plataforma Vercel.
 
-**[Link do Deploy na Vercel AQUI]**
-*(Substitua esta linha pelo link real após o deploy.)*
+**https://product-management-dashboard-nu.vercel.app/**
 
 ---
 
